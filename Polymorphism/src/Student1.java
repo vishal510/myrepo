@@ -27,6 +27,12 @@ public class Student1 extends Person1 {
 	 static void m1(Object ia) {
 		System.out.println("Object param");
 	}
+	 static void m1(Person... ia) {
+		 System.out.println("Person VA param");
+	 }
+	 static void m1(Object... ia ) {
+		 System.out.println("Object VA param");
+	 }
 
 public static void main(String[] args) {
 	m1(new Student1[5]);
