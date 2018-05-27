@@ -1,0 +1,17 @@
+<head>
+<script language="JavaScript" src="validation.js"></script>
+</head>
+
+<h1>
+	<center>Check VOTING Eligibility</center>
+	
+</h1>
+<br>
+<form action="voterurl"
+	onsubmit="return validate(this)" method="post">
+	Person Name:<input type="text" name="pname" /><span id="nameErr"></span><br><br>
+	Person age:<input type="text" name="page"><span id="ageErr"></span><br><br>
+	<!-- hidden box -->
+	<input type="hidden" name="vflag" value="no"/>
+	<input type="submit" value="check voting eligibility">
+</form>

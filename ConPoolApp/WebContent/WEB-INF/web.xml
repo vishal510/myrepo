@@ -1,0 +1,14 @@
+<web-app>
+<display-name>PoolApp</display-name>
+<welcome-filee-list>
+<welcome-file>input.html</welcome-file>
+</welcome-filee-list>o
+<servlet>
+<servlet-name>pool</servlet-name>
+<servlet-class>com.nt.servletConPoolServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>pool</servlet-name>
+<url-pattern>/poolurl</url-pattern>
+</servlet-mapping>
+</web-app>

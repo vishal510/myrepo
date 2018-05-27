@@ -1,0 +1,16 @@
+<head>
+<script language="JavaScript" src="validation.js"></script>
+</head>
+
+<h1>
+	<center>Marriage App</center>
+</h1>
+<br>
+<form action="marriageurl"
+	onsubmit="return validate(this)" method="Post">
+	Person Name:<input type="text" name="pname" /><span id="nameErr"></span><br><br>
+	Person age:<input type="text" name="page"><span id="ageErr"></span><br><br>
+	<!-- hidden box -->
+	<input type="hidden" name="vflag" value="no"/>
+	<input type="submit" value="Cheking Marriage Eligibility ">
+</form>
