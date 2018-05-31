@@ -1,11 +1,11 @@
 <web-app>
 <display-name>PoolApp</display-name>
-<welcome-filee-list>
+<welcome-file-list>
 <welcome-file>input.html</welcome-file>
-</welcome-filee-list>o
+</welcome-file-list>
 <servlet>
 <servlet-name>pool</servlet-name>
-<servlet-class>com.nt.servletConPoolServlet</servlet-class>
+<servlet-class>com.nt.servlet.ConPoolServlet</servlet-class>
 </servlet>
 <servlet-mapping>
 <servlet-name>pool</servlet-name>

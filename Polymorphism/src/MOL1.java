@@ -38,18 +38,18 @@ public class MOL1 {
 		a1.m1((char)'a'+'b');
 		
 		System.out.println();
-		/*	a1.m1(m2());
+			a1.m1(m2());
 		a1.m1(m3());
+	}
 		static int m2() {
 			return 'a';
 		}
 		static char m3() {
 			return 97;
 		}
-■ Overloaded methods MUST change the argument list.
-■ Overloaded methods CAN change the return type.
-■ Overloaded methods CAN change the access modifier.
-■ Overloaded methods CAN declare new or broader checked exceptions*/
+//■ Overloaded methods MUST change the argument list.
+//■ Overloaded methods CAN change the return type.
+//■ Overloaded methods CAN change the access modifier.
+//■ Overloaded methods CAN declare new or broader checked exceptions
 	}
 
-}
