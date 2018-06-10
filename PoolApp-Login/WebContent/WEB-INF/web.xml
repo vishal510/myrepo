@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>PoolApp-LoginApp</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+     <servlet-name>login</servlet-name>
+     <servlet-class>com.nt.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>login</servlet-name>
+     <url-pattern>/loginurl</url-pattern>
+  </servlet-mapping>
+</web-app>
